@@ -1,8 +1,25 @@
 aid: id-analytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/id-analytics.png
 name: Id Analytics
-description: Id Analytics is a company surfaced as a portfolio company of canaan-partners, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  ID Analytics was a San Diego-based identity risk and fraud analytics company founded in 2002. It
+  operated the ID Network, a cross-industry consortium of consumer identity behavior, and productized
+  it as ID Score and related fraud-detection, credit-risk, and identity-verification analytics used by
+  financial services, telecommunications, and government. The company was acquired by LifeLock in 2012,
+  passed to Symantec when it bought LifeLock in 2017, and was sold to LexisNexis Risk Solutions in 2020,
+  where its capabilities are now delivered. It no longer operates an independent developer portal or
+  public API; idanalytics.com now redirects to LexisNexis Risk Solutions.
 url: https://raw.githubusercontent.com/api-evangelist/id-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +28,32 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: lexisnexis-risk-solutions
+x-website-historical: https://www.idanalytics.com
+x-enrichment-note: >-
+  Enrichment probe 2026-07-19: idanalytics.com 301-redirects to risk.lexisnexis.com. Brand fully absorbed
+  by LexisNexis Risk Solutions with no independent developer surface (no portal, docs, OpenAPI, SDKs, or
+  well-known documents to search). No artifacts producible without fabrication.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Identity
+- Fraud
+- Analytics
+- Risk
+- Credit Risk
+- Identity Verification
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
