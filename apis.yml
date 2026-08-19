@@ -35,7 +35,7 @@ x-enrichment-note: >-
   Enrichment probe 2026-07-19: idanalytics.com 301-redirects to risk.lexisnexis.com. Brand fully absorbed
   by LexisNexis Risk Solutions with no independent developer surface (no portal, docs, OpenAPI, SDKs, or
   well-known documents to search). No artifacts producible without fabrication.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
