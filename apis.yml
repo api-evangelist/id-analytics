@@ -68,3 +68,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/lifelock/
+  name: LifeLock
+  x-relationship: acquired
+  x-evidence: "The company was acquired by LifeLock in 2012, passed to Symantec when it bought LifeLock in 2017, and was sold to LexisNexis Risk Solutions in 2020, where its capabilities are now delivered."
